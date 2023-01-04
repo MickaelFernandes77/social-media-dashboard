@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mainContainer {
+    background-color: #fff;
+    padding-top: 4%;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.switch-btn-d, .switch-btn-l {
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.switch-btn-d {
+    background-color: rgb(89, 88, 88);
+    color: #fff;
+}
+
+.switch-btn-l {
+    background-color: #fff;
+    color: #000;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-card {
+    width: 270px;
+    height: 250px;
+    background-color: #f0f2fa;
+    border-top: solid 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.social-media-card:hover{
+    background-color: #c0c5e1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#facebook-card {
+    border-color: #198ff5;
+}
+
+#twitter-card {
+    border-color: #1ca0f2;
+}
+
+#instagram-card {
+    border-image: linear-gradient(to right, #fdc468, #df4996) 1;
+}
+
+#youtube-card {
+    border-color: #c4032a;
+}
+
+.account {
+    color: #484646;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.followers-number{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.followers-text{
+    color: #484646;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
