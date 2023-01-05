@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-
+/* container 1 */
 .mainContainer {
     background-color: #fff;
-    padding-top: 4%;
+    padding-top: 1%;
     width: 100%;
+    height: 100%;
+    max-width: 1920px;
 }
 
 .title {
@@ -27,7 +29,7 @@
 }
 
 .switch-btn-d {
-    background-color: rgb(89, 88, 88);
+    background-color: #484646;
     color: #fff;
 }
 
@@ -39,8 +41,11 @@
 .social-media-container {
     display: flex;
     justify-content: space-between;
+    height: 300px;
+    margin-top: 4%
 }
 
+/* cards redes sociais */
 .social-media-card {
     width: 270px;
     height: 250px;
@@ -50,10 +55,11 @@
     border-bottom-right-radius: 10px;
 }
 
-.social-media-card:hover{
+.social-media-card:hover {
     background-color: #c0c5e1;
     transition: 0.5s;
     cursor: pointer;
+    transform: translateY(-25px);
 }
 
 #facebook-card {
@@ -78,7 +84,7 @@
     font-weight: 700;
 }
 
-.followers-number{
+.followers-number {
     color: #000;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -86,7 +92,7 @@
     text-align: center;
 }
 
-.followers-text{
+.followers-text {
     color: #484646;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -94,4 +100,122 @@
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.followers-up, .followers-down {
+    font-family: 'Inter', sans-serif;
+    margin: 2.5px 0 0 1px;
+}
+
+.followers-up {
+    color: #1db489;
+}
+
+.followers-down {
+    color: #dc414c;
+}
+
+/* container 2 */
+.secondContainer {
+    background-color: #fff;
+    height: 400px;
+    max-width: 1920px;
+}
+
+.title2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+/* cards dos numeros das redes sociais */
+.social-media-overview-card {
+    height: 130px;
+    width: 250px;
+    background-color: #f0f2fa;
+    border-radius: 5px;
+}
+
+.social-media-overview-card:hover {
+    background-color: #c0c5e1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.pg-views {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 15px 0 0 5%;
+    color: #484646;
+    font-size: 15px;
+}
+
+.social-media-logos {
+    width: 22px;
+    height: 22px;
+    margin: 15px 9% 0 0;
+}
+
+.pg-numbers {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 3% 0 0 3%;
+    color: #000;
+}
+
+.view-numbers-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 11% 0 0 30%;
+}
+
+.view-up, .view-down {
+    margin-top: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.view-numbers {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 1px;
+}
+
+.view-numbers-up {
+    color: #1db489;
+}
+
+.view-numbers-down {
+    color: #dc414c;
+}
+
+/*  Media queries*/
+@media(min-width: 320px) and (max-width:374px) {
+
+}
+
+@media(min-width:375px) and (max-width:425px) {
+
+}
+
+@media(min-width: 426px) and (max-width: 486px) {
+}
+
+@media(min-width: 487px) and (max-width: 550px) {
+}
+
+@media (min-width: 551px) and (max-width: 575px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
 }
