@@ -54,17 +54,31 @@
 .social-media-card {
     width: 270px;
     height: 250px;
-    background-color: #f0f2fa;
     border-top: solid 8px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 .social-media-card:hover {
-    background-color: #c0c5e1;
     transition: 0.5s;
     cursor: pointer;
     transform: translateY(-25px);
+}
+
+.social-media-card-l {
+    background-color: #f0f2fa;
+}
+
+.social-media-card-l:hover {
+    background-color: #c0c5e1;
+}
+
+.social-media-card-d {
+    background-color: #252a41;
+}
+
+.social-media-card-d:hover {
+    background-color: #42465f;
 }
 
 #facebook-card {
@@ -138,14 +152,28 @@
 .social-media-overview-card {
     height: 130px;
     width: 250px;
-    background-color: #f0f2fa;
     border-radius: 5px;
 }
 
-.social-media-overview-card:hover {
-    background-color: #c0c5e1;
+.social-media-overview-card {
     transition: 0.5s;
     cursor: pointer;
+}
+
+.social-media-overview-card-l {
+    background-color: #f0f2fa;
+}
+
+.social-media-overview-card-l:hover {
+    background-color: #c0c5e1;
+}
+
+.social-media-overview-card-d {
+    background-color: #252a41;
+}
+
+.social-media-overview-card-d:hover {
+    background-color: #42465f;
 }
 
 .pg-views {

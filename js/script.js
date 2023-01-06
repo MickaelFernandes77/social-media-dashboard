@@ -34,9 +34,10 @@ function dark() {
   container1.style.backgroundColor = "#1e202a";
   title.style.color = "#fff";
   subtitle.style.color = "#fff";
-  // cards background alteracao
+  // cards alteracao das cores e dos backgrounds
   for (let i = 0; i < socialMediaCards.length; i++) {
-    socialMediaCards[i].style.backgroundColor = "hsl(228, 28%, 20%)";
+    socialMediaCards[i].classList.remove("social-media-card-l");
+    socialMediaCards[i].classList.add("social-media-card-d");
     followersText[i].style.color = "#fff";
     account[i].style.color = "#fff";
     followersNumber[i].style.color = "#fff";
@@ -46,7 +47,8 @@ function dark() {
   title2.style.color = "#fff";
 
   for (let x = 0; x < socialMediaOverviewCard.length; x++) {
-    socialMediaOverviewCard[x].style.backgroundColor = "hsl(228, 28%, 20%)";
+    socialMediaOverviewCard[x].classList.remove("social-media-overview-card-l");
+    socialMediaOverviewCard[x].classList.add("social-media-overview-card-d");
     pageViews[x].style.color = "#fff";
     pageNumbers[x].style.color = "#fff";
   }
@@ -63,7 +65,8 @@ function light() {
   subtitle.style.color = "#000";
   // cards background alteracao
   for (let i = 0; i < socialMediaCards.length; i++) {
-    socialMediaCards[i].style.backgroundColor = "#f0f2fa";
+    socialMediaCards[i].classList.remove("social-media-card-d");
+    socialMediaCards[i].classList.add("social-media-card-l");
     followersText[i].style.color = "#484646";
     account[i].style.color = "#484646";
     followersNumber[i].style.color = "#000";
@@ -73,7 +76,8 @@ function light() {
   title2.style.color = "#000";
 
   for (let x = 0; x < socialMediaOverviewCard.length; x++) {
-    socialMediaOverviewCard[x].style.backgroundColor = "#f0f2fa";
+    socialMediaOverviewCard[x].classList.remove("social-media-overview-card-d");
+    socialMediaOverviewCard[x].classList.add("social-media-overview-card-l");
     pageViews[x].style.color = "#484646";
     pageNumbers[x].style.color = "#000";
   }
