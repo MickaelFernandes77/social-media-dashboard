@@ -13,8 +13,12 @@
     max-width: 1920px;
 }
 
-.title {
+.title,
+.subtitle {
     font-family: 'Inter', sans-serif;
+}
+
+.title {
     font-weight: 700;
 }
 
@@ -36,6 +40,7 @@
 .switch-btn-l {
     background-color: #fff;
     color: #000;
+    display: none;
 }
 
 .social-media-container {
